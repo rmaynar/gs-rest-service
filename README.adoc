@@ -153,6 +153,9 @@ This change demonstrates that the `@RequestParam` arrangement in `GreetingContro
 
 Notice also how the `id` attribute has changed from `1` to `2`. This proves that you are working against the same `GreetingController` instance across multiple requests, and that its `counter` field is being incremented on each call as expected.
 
+== Test the api thorugh swagger
+
+http://localhost:8080/swagger-ui.html#/
 
 == Summary
 
